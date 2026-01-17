@@ -30,6 +30,9 @@ const UserSchema = new mongoose.Schema(
     adress: {
       type: String,
     },
+    otp:{
+      type : String
+    }
   },
   {
     timestamps: true,
